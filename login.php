@@ -1,7 +1,7 @@
 <?php
 // Database configuration
-$host = 'mysushidatabase.cf00s6s4mw3w.eu-north-1.rds.amazonaws.com'; // Your database host
-$dbname = 'database-1'; // Your database name
+$host = 'database-1.cf00s6s4mw3w.eu-north-1.rds.amazonaws.com'; // Your database host
+$dbname = 'Sushi'; // Your database name
 $username = 'admin'; // Your database username
 $password = 'MySushiDataBase'; // Your database password (update if needed)
 
