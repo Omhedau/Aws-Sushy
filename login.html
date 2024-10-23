@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Login - Sushiman</title>
+</head>
+
+<body>
+    <div class="login-container">
+        <h2>Login</h2>
+        <form action="login.php" method="POST" class="login-form">
+            <label for="email">Email:</label>
+            <input type="email" name="email" id="email" placeholder="Enter your email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password" placeholder="Enter your password" required>
+
+            <button type="submit" class="login-button">Login</button>
+
+            <p class="login-footer">
+                Don't have an account? <a href="signup.html">Sign up here</a>.
+            </p>
+        </form>
+    </div>
+</body>
+
+</html>
