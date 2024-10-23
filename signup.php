@@ -44,7 +44,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $stmt->bind_param("sss", $name, $email, $hashed_password);
 
         if ($stmt->execute()) {
-            echo "<div class='message success'><h2>Signup Successful! You can now <a href='login.php'>login</a>.</h2></div>";
+            echo "<div class='message success'><h2>Signup Successful! You can now <a href='login.html'>login</a>.</h2></div>";
         } else {
             echo "<div class='message error'><h2>Error: Could not complete signup. Please try again.</h2></div>";
         }
